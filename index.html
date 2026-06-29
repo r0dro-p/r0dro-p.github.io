@@ -76,11 +76,15 @@
         .enlaces a.github {
             background: #333;
         }
+        /* Sección de profesores */
+        .profesores-lista {
+            margin-top: 20px;
+        }
         .profesor {
             background: #f0f4fa;
             padding: 12px;
             border-radius: 8px;
-            margin-top: 20px;
+            margin-bottom: 10px;
             border-left: 4px solid #3a6b8f;
         }
         .profesor a {
@@ -91,13 +95,27 @@
         .profesor a:hover {
             text-decoration: underline;
         }
+        /* Sección de compañeros */
         .companeros {
             margin-top: 20px;
             background: #f9fafb;
-            padding: 10px;
+            padding: 15px;
             border-radius: 8px;
-            text-align: center;
-            font-size: 0.95em;
+        }
+        .companeros ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .companeros li {
+            margin-bottom: 8px;
+        }
+        .companeros a {
+            color: #3a6b8f;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .companeros a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -131,27 +149,64 @@
         <li>Introducción a la computación</li>
     </ul>
 
+    <!-- NUEVA SECCIÓN: Profesores del semestre -->
+    <h2>Profesores del primer semestre</h2>
+    <div class="profesores-lista">
+        <div class="profesor">
+            <strong>Comunicación:</strong> 
+            <a href="https://www.linkedin.com/in/angel-rodriguez-cruz-58b78b85/" target="_blank">Angel Rodriguez Cruz</a>
+        </div>
+        <div class="profesor">
+            <strong>Lógica:</strong> 
+            <a href="https://www.linkedin.com/in/ana-lucia-huerta-salinas-a89600b4/" target="_blank">Ana Lucia Huerta Salinas</a>
+        </div>
+        <div class="profesor">
+            <strong>Introducción a la Vida Universitaria:</strong> 
+            <a href="https://www.linkedin.com/in/lilian-moscoso-prieto-53345390/" target="_blank">Lilian Moscoso Prieto</a>
+        </div>
+        <div class="profesor">
+            <strong>Fundamentos de Programación:</strong> 
+            <a href="https://www.linkedin.com/in/rpaccotacyay/" target="_blank">R. Paccotacya Y.</a>
+        </div>
+        <div class="profesor">
+            <strong>Fundamentos Matemáticos para Computación:</strong> 
+            <a href="https://www.linkedin.com/in/fiorella-maría-rendón-garcía-7aa9b7374/" target="_blank">Fiorella María Rendón García</a>
+        </div>
+        <div class="profesor">
+            <strong>Introducción a la Computación:</strong> 
+            <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros-Vargas</a>
+            <span style="display:block; font-size:0.9rem; color:#555; margin-top:4px;">
+                (docente e investigador en la UCSP)
+            </span>
+        </div>
+    </div>
+
+    <!-- NUEVA SECCIÓN: Compañeros (amigos) -->
+    <h2>Compañeros de clase</h2>
+    <div class="companeros">
+        <ul>
+            <li>
+                <a href="https://flavio-hc.github.io/pagina-personal/#cursos" target="_blank">Flavio H. C.</a>
+            </li>
+            <li>
+                <a href="https://yeniferhuarachi-code.github.io/yeniferhuarachihalanoca.github.io/" target="_blank">Yenifer Huarachi H.</a>
+            </li>
+            <li>
+                <a href="https://santiagovargasobando.github.io/sitio_personal/" target="_blank">Santiago Vargas Obando</a>
+            </li>
+            <li>
+                <a href="https://vanderlothpacco78-code.github.io/Mi-web/" target="_blank">Vander L. Ot. Pacco</a>
+            </li>
+            <li>
+                <a href="https://kennyeq.github.io/Kenny/" target="_blank">Keny Espinoza Quispe</a>
+            </li>
+        </ul>
+    </div>
+
     <div class="enlaces">
         <a href="https://www.linkedin.com/in/rodrigo-paredes-361261418/" target="_blank" class="linkedin">LinkedIn</a>
         <a href="https://github.com/r0dro-p" target="_blank" class="github">GitHub</a>
     </div>
-
-    <div class="profesor">
-        <strong>Profesor del curso:</strong>
-        <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros-Vargas</a>
-        <span style="display:block; font-size:0.9rem; color:#555; margin-top:4px;">
-            (docente e investigador en la UCSP)
-        </span>
-    </div>
-
-<div class="companeros">
-    <p><strong>Compañeros de clase:</strong> Keny Espinoza Quispe</p>
-    <p>
-        <a href="https://kennyeq.github.io/Kenny/" target="_blank" style="color: #3a6b8f; font-weight: bold; text-decoration: none;">
-            Ver portafolio de Keny
-        </a>
-    </p>
-</div>
 
 </div>
 </body>
